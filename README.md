@@ -31,10 +31,10 @@ Se Chromium è installato, vedrai la versione. Se non è installato, procedi al 
 
 Installazione di Chromium: Se Chromium non è installato, esegui:
 
-bash
-
     sudo apt update
     sudo apt install chromium-browser -y
+
+Se il browser chromium è installato configura il tuo profilo google in modo che il calendar mostrato sia quello della tua utenza.
 
 ### 3. Creazione dello Script per Avviare Chromium
 
@@ -43,8 +43,6 @@ Crea uno script: Apri un terminale e crea un nuovo file di script:
     nano /home/pi/start_calendar.sh
 
 Aggiungi il seguente codice:
-
-      bash
 
       #!/bin/bash
       sleep 10  # Attendi 10 secondi
@@ -72,8 +70,6 @@ Aggiungi la seguente riga:
 5. Ruotare lo Schermo in Modalità Verticale (Facoltativo)
 
     Modifica il file di configurazione: Apri il file di configurazione:
-
-    bash
 
 sudo nano /boot/config.txt
 
