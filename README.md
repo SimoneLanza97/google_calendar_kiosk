@@ -20,7 +20,11 @@ Laboratorio per la configurazione di un raspberry per la creazione di una lavagn
 - **Verifica se il server grafico in uso è X11**: Apri un terminale e esegui:
   
       echo $XDG_SESSION_TYPE
+  
 Se l'output è `x11`, sei a posto. Se l'output è `wayland`, dovrai cambiare il server grafico.
+Esegui il comando 
+
+      sudo raspi-config
 
  Vai su Advanced Options → GL Driver e seleziona GL (Fake KMS) o GL (Full KMS). Riavvia il Raspberry Pi.
 
