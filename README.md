@@ -66,15 +66,9 @@ Aggiungi la seguente riga:
 
     @/home/pi/start_calendar.sh
 
-    Salva ed esci: Premi CTRL + O, poi Enter, e CTRL + X per uscire.
+Salva ed esci: Premi CTRL + O, poi Enter, e CTRL + X per uscire.
 
-5. Ruotare lo Schermo in Modalità Verticale (Facoltativo)
-
-    Modifica il file di configurazione: Apri il file di configurazione:
-
-sudo nano /boot/config.txt
-
-Riavvia il Raspberry Pi:
+### 5. Riavvia il Raspberry Pi:
 
     sudo reboot
 
