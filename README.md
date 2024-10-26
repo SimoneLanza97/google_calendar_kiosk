@@ -1,4 +1,5 @@
-# google_calendar_kiosk
+# GOOGLE CALENDAR KIOSK 
+
 Laboratorio per la configurazione di un raspberry per la creazione di una lavagna interattiva che mostri il google calendar del giorno
 
 # Configurazione di un Raspberry Pi per Visualizzare Google Calendar
